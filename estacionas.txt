@@ -1,0 +1,21 @@
+<! DOCTYPE html >
+< html  lang = " pt " >
+  < cabeça >
+    < meta  charset = " UTF-8 " />
+    < meta  name = " viewport " content = " width = largura do dispositivo, escala inicial = 1.0 " />
+    < title > Documento </ title >
+  </ cabeça >
+  < corpo >
+    < script >
+      var  veiculo  =  prompt ( "Digite o veiculo" ) ;
+      var  tempo  =  prompt ( "Digite quanto tempo o veículo ficou estacionado" ) ;
+      if  ( veiculo  ==  "carro" )  {
+        alerta ( "Você deve pagar: R $"  +  tempo * 2 ) ;
+      }  senão  se  ( veiculo  ==  "onibus" )  {
+        alerta ( "Você deve pagar: R $"  +  tempo * 3 ) ;
+      }  mais  {
+        alerta ( "Você deve pagar: R $"  +  tempo * 5 ) ;
+      }
+    </ script >
+  </ corpo >
+</ html >
